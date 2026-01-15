@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+h2 {
+  margin-top: 24px;
+}
+
+.selectors label {
+  margin-right: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.talent {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* コア素質 */
+.core.on {
+  background: #9be7a4;
+}
+.core.off {
+  background: #eee;
+}
+
+/* サブ素質 */
+.sub.none { background: #eee; }
+.sub.low { background: #bde9ff; }
+.sub.one { background: #7cbcff; color: #fff; }
+.sub.mid { background: #ffb347; }
+.sub.high { background: #ff6b6b; color: #fff; }
+
+.toggle {
+  display: block;
+  margin: 12px 0;
+}
