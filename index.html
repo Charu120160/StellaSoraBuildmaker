@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ステラソラ 巡遊者ビルドメモ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>巡遊者ビルドメモ</h1>
+
+  <div class="selectors">
+    <label>主力：
+      <select id="mainSelect"></select>
+    </label>
+    <label>支援1：
+      <select id="support1Select"></select>
+    </label>
+    <label>支援2：
+      <select id="support2Select"></select>
+    </label>
+  </div>
+
+  <label class="toggle">
+    <input type="checkbox" id="hideUnselected" />
+    取得しない素質を非表示（スクショ用）
+  </label>
+
+  <div id="talentArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
