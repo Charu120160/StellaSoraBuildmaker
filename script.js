@@ -27,7 +27,53 @@ const characters = {
       ]
     }
   },
-    "フィレン": {
+  "ミスティ": {
+    main: {
+      core: [
+        { id: "mistique_mc1", name: "連続撮影", image: "" },
+        { id: "mistique_mc2", name: "削除への抵抗", image: "" },
+        { id: "mistique_mc3", name: "助手との連携", image: "" },
+        { id: "mistique_mc4", name: "スクープ激写", image: "" }
+      ],
+      sub: [
+        { id: "mistique_ms1", name: "削除への呪言", image: "" },
+        { id: "mistique_ms2", name: "削除への対策", image: "" },
+        { id: "mistique_ms3", name: "削除からの復活", image: "" },
+        { id: "mistique_ms4", name: "真実への執念", image: "" },
+        { id: "mistique_ms5", name: "夜間疾走", image: "" },
+        { id: "mistique_ms6", name: "露出補正", image: "" },
+        { id: "mistique_ms7", name: "自動焦点調整", image: "" },
+        { id: "mistique_ms8", name: "表現欲求", image: "" },
+        { id: "mistique_ms9", name: "ベストショット", image: "" },
+        { id: "mistique_ms10", name: "全力取材", image: "" },
+        { id: "mistique_ms11", name: "真実の断片", image: "" },
+        { id: "mistique_ms12", name: "ゴシップ発見", image: "" }
+      ]
+    },
+    support: {
+      core: [
+        { id: "mistique_sc1", name: "魔女の微笑み", image: "" },
+        { id: "mistique_sc2", name: "真実の追求", image: "" },
+        { id: "mistique_sc3", name: "ネタ集め", image: "" },
+        { id: "mistique_sc4", name: "幸運体質", image: "" }
+      ],
+      sub: [
+        { id: "mistique_ss1", name: "助手の指名", image: "" },
+        { id: "mistique_ss2", name: "助手の成長", image: "" },
+        { id: "mistique_ss3", name: "助手の増員", image: "" },
+        { id: "mistique_ss4", name: "質問攻め", image: "" },
+        { id: "mistique_ss5", name: "新ネタへの執着", image: "" },
+        { id: "mistique_ss6", name: "ターゲティング", image: "" },
+        { id: "mistique_ss7", name: "魔女の詮索眼", image: "" },
+        { id: "mistique_ss8", name: "追加取材", image: "" },
+        { id: "mistique_ss9", name: "暗躍者", image: "" },
+        { id: "mistique_ss10", name: "全力取材", image: "" },
+        { id: "mistique_ss11", name: "真実の断片", image: "" },
+        { id: "mistique_ss12", name: "ゴシップ発見", image: "" }
+      ]
+    }
+  },
+  "フィレン": {
     main: {
       core: [
         { id: "firenze_mc1", name: "タップステップ", image: "" },
